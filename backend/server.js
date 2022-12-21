@@ -7,6 +7,7 @@ const corsOptions = require('./config/corsOptions');
 const data = require('./routes/datas')
 const user = require('./routes/users')
 const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
 const credentials = require('./middleware/credentials');
 
 const app = express()
